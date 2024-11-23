@@ -1,0 +1,9 @@
+﻿@{
+    ViewData["Title"] = "Загрузка файла";
+}
+
+<h1>Загрузка файла</h1>
+<form method="post" enctype="multipart/form-data" asp-action="UploadFile">
+    <input type="file" name="file" />
+    <button type="submit">Загрузить</button>
+</form>
